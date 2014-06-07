@@ -1,0 +1,133 @@
+---
+layout: default
+has_map: true
+---
+
+<div id="map"></div>
+<div>
+  <input type=text id=filter placeholder="Type to filter" autofocus />
+</div>
+<div id="directory"></div>
+
+{% raw %}
+<script id="member_template" type="text/x-handlebars-template">
+<p>
+<b>{{NAME}}</b><br />
+{{#if COMPANY}}
+Organization: {{COMPANY}}<br />
+{{/if}}
+{{#if ADDRESS}}
+Address: {{ADDRESS}}<br />
+{{/if}}
+{{#if SERVICE}}
+Service: {{SERVICE}}<br />
+{{/if}}
+{{#if PHONE}}
+Phone: {{PHONE}}<br />
+{{/if}}
+{{#if EMAIL}}
+Email: {{EMAIL}}<br />
+{{/if}}
+{{#if WEBSITE}}
+Website: {{WEBSITE}}<br />
+{{/if}}
+Tags: {{LOCALITY}} {{REGION}} {{COUNTRY}}
+</p>
+</script>
+{% endraw %}
+
+<script>
+
+
+$(function() {
+
+   var map = L.map('map');
+   var mapquest = 'http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png';
+   var subdomains = ['otile1','otile2','otile3','otile4'];
+   var attrib = '<a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> data, <a href="http://www.mapquest.com/" target="_blank">MapQuest-OSM</a> tiles.';
+   L.tileLayer(mapquest, {
+     attribution: attrib,
+     subdomains: subdomains,
+     maxZoom: 18
+   }).addTo(map);
+
+   var all = {{ site.data.directory | jsonify }};
+   var markers = null;
+   var current_filter = "notset";
+
+   function match_filter(member,filt) {
+     var str = member["NAME"] + " // " + member["COMPANY"] + " // " + member["ADDRESS"] + " // " + member["LOCALITY"] + " // " + member["REGION"] + " // " + member["COUNTRY"] + " // " + member["PHONE"];
+     return str.match(new RegExp(filt,'i'));
+   }
+
+   function apply_filter(filt) {
+     if (filt==current_filter) return;
+     current_filter = filt;
+       var first = true;
+       var x1 = 40.8101;
+       var x2 = 40.8101;
+       var y1 = -73.9058;
+       var y2 = -73.9058;
+       var data = [];
+       for (var i=0; i<all.length; i++) {
+	 if (match_filter(all[i],filt)) {
+	   data.push(all[i]);
+	 }
+       }
+     var mdata = data;
+     if (data.length==0) {
+       mdata = all;
+     }
+     for (var i=0; i<mdata.length; i++) {
+       var x = mdata[i]["LAT"];
+       var y = mdata[i]["LNG"];
+       if (x==""||y=="") continue;
+       x = parseFloat(x);
+       y = parseFloat(y);
+       if (first) {
+	 x1 = x2 = x;
+	 y1 = y2 = y;
+	 first = false;
+	 continue;
+       }
+       x1 = Math.min(x1,x);
+       x2 = Math.max(x2,x);
+       y1 = Math.min(y1,y);
+       y2 = Math.max(y2,y);
+     }
+     var dx = 0.1;
+     var dy = 0.1;
+     map.fitBounds([[x1-dx,y1-dy],[x2+dx,y2+dy]]);
+     
+     if (markers!=null) {
+       map.removeLayer(markers);
+     }
+     markers = new L.MarkerClusterGroup({maxClusterRadius: 40});
+     var member_template = Handlebars.compile($("#member_template").html());
+     var directory = $("#directory");
+     directory.html("");
+     for (var i=0; i<data.length; i++) {
+       var member = data[i];
+       var txt = member_template(member);
+       directory.append(txt);
+       if (member.LAT==""||member.LNG=="") continue;
+       var marker = new L.Marker(new L.LatLng(member.LAT,member.LNG), { title: member.NAME });
+       marker.bindPopup(txt);
+       markers.addLayer(marker);
+     }
+     map.addLayer(markers);
+   }
+
+   $("#filter").bind("keyup change paste",function(e) {
+     console.log("hello " + $(e.target).val());
+     apply_filter($(e.target).val());
+   });
+
+   apply_filter("");
+
+   if (!("autofocus" in document.createElement("input"))) {
+     document.getElementById("filter").focus();
+   }   
+ });
+ 
+</script>
