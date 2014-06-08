@@ -237,7 +237,7 @@ blockquote p {
 }
 
 .item { 
-  display: inline-block;
+  display: block;
   margin-top: 1em;
   margin-right: 1em;
 }
