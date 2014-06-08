@@ -86,6 +86,9 @@ $(function() {
 
    Handlebars.registerHelper('link', function(text, url) {
      text = Handlebars.Utils.escapeExpression(text);
+     if (url.indexOf("://")<0) {
+       url = "http://" + url;
+     }
      url  = Handlebars.Utils.escapeExpression(url);
      var result = '<a href="' + url + '">' + text + '</a>';
      return new Handlebars.SafeString(result);
