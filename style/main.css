@@ -238,8 +238,8 @@ blockquote p {
 
 .item { 
   display: block;
+  max-width: 400px;
   margin-top: 1em;
-  margin-right: 1em;
 }
 
 .clear {

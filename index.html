@@ -8,7 +8,7 @@ has_map: true
   <input type=text id=filter placeholder="Type to filter" autofocus />
 </div>
 
-<div id="directory" class="js-masonry" data-masonry-options='{ "itemSelector": ".item", "columnWidth": 200 }'>
+<div id="directory" class="js-masonry" data-masonry-options='{ "itemSelector": ".item", "columnWidth": 90, "gutter": 10 }'>
 </div>
 <div class="clear"></div>
 
@@ -163,7 +163,8 @@ $(function() {
      var container = document.querySelector('#directory');
      var msnry = new Masonry( container, {
        itemSelector: '.item',
-       columnWidth: 200
+       columnWidth: 90,
+       gutter: 10
      });
    }
 
