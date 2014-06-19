@@ -257,7 +257,11 @@ blockquote p {
 .item { 
   display: block;
   max-width: 400px;
-  margin-top: 1em;
+  margin-top: 2em;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 1em #080;
 }
 
 .clear {
