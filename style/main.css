@@ -236,6 +236,21 @@ blockquote p {
   background: #eee;
 }
 
+.see-also { 
+  display: inline;
+  font-size: 150%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 20px;
+  border-style: none;
+  background: #aaa;
+  margin: 0;
+}
+
+.see-also a {
+  color: white;
+}
+
 .item { 
   display: block;
   max-width: 400px;
