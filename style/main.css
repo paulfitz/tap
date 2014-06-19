@@ -234,10 +234,13 @@ blockquote p {
   padding: 20px;
   border-style: none;
   background: #eee;
+  float: left;
+  margin-right: 10px;
 }
 
 .see-also { 
-  display: inline;
+  display: inline-block;
+  float: left;
   font-size: 150%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
