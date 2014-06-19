@@ -254,7 +254,7 @@ blockquote p {
   color: white;
 }
 
-.item { 
+#directory .item { 
   display: block;
   max-width: 400px;
   margin-top: 2em;
