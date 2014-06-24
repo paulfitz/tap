@@ -1,6 +1,8 @@
 ---
 layout: default
 has_map: true
+width: 230
+gutter: 10
 ---
 
 <div id="map"></div>
@@ -10,7 +12,7 @@ has_map: true
 </div>
 <div class="clear"></div>
 
-<div id="directory" class="js-masonry" data-masonry-options='{ "itemSelector": ".item", "columnWidth": 110, "gutter": 20 }'>
+<div id="directory" class="js-masonry" data-masonry-options='{ "itemSelector": ".item", "columnWidth": {{page.width}}, "gutter": {{page.gutter}}'>
 </div>
 <div class="clear"></div>
 
@@ -165,8 +167,8 @@ $(function() {
      var container = document.querySelector('#directory');
      var msnry = new Masonry( container, {
        itemSelector: '.item',
-       columnWidth: 110,
-       gutter: 20
+       columnWidth: {{page.width}},
+       gutter: {{page.gutter}}
      });
    }
 
