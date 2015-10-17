@@ -1,0 +1,335 @@
+{
+  "names": [
+    "directory"
+  ], 
+  "tables": {
+    "directory": {
+      "columns": [
+        "NAME", 
+        "COMPANY", 
+        "SERVICE", 
+        "ADDRESS", 
+        "PHONE", 
+        "EMAIL", 
+        "WEBSITE"
+      ], 
+      "rows": [
+        {
+          "NAME": "Deborah Jacobson", 
+          "COMPANY": "", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "Holyoke, MA", 
+          "PHONE": "", 
+          "EMAIL": "", 
+          "WEBSITE": "dfjacobson.com"
+        }, 
+        {
+          "NAME": "Boston Tech Collective", 
+          "COMPANY": "", 
+          "SERVICE": "", 
+          "ADDRESS": "231 Holland St., Somerville, MA 02144", 
+          "PHONE": "617-639-1230", 
+          "EMAIL": "", 
+          "WEBSITE": "http://boston.techcollective.com/"
+        }, 
+        {
+          "NAME": "Tom Beckett", 
+          "COMPANY": "Ownership Appalachia", 
+          "SERVICE": "", 
+          "ADDRESS": "Asheville, NC", 
+          "PHONE": "", 
+          "EMAIL": "", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Andy Danforth", 
+          "COMPANY": "Cooperative Development Institute", 
+          "SERVICE": "Co-op Development, particularly housing/real estate", 
+          "ADDRESS": "PO Box 422, Shelburne Falls, MA 01370", 
+          "PHONE": "", 
+          "EMAIL": "adanforth@cdi.coop", 
+          "WEBSITE": "http://www.cdi.coop/about-us/staff/#adanforth"
+        }, 
+        {
+          "NAME": "Patrick Deluhery", 
+          "COMPANY": "Patrick Deluhery, Esq.", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "South Hadley, MA", 
+          "PHONE": "413-437-7145", 
+          "EMAIL": "pdeluhery@aol.com", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Steve Harrington", 
+          "COMPANY": "Bova, Harrington & Associates PC", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "241 King Street Suite 27 Northampton, MA 01060", 
+          "PHONE": "(413) 585-5815", 
+          "EMAIL": "", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Robb D. Morton", 
+          "COMPANY": "Boisselle, Morton & Associates LLP", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "48 Bay Rd. Hadley, MA 01035", 
+          "PHONE": "(413) 587-0099", 
+          "EMAIL": "", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Michele Cabral", 
+          "COMPANY": "Accounting Folks", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "733 Memorial Ave. West Springfield, MA 01089", 
+          "PHONE": "413-537-0118", 
+          "EMAIL": "", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Rich Forsyth", 
+          "COMPANY": "Pieciak and Co.", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "10 Park Place, Brattleboro, VT 05302", 
+          "PHONE": "802-257-1307", 
+          "EMAIL": "", 
+          "WEBSITE": "www.pieciak.com"
+        }, 
+        {
+          "NAME": "Mike Nickerson", 
+          "COMPANY": "", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "Belfast, ME", 
+          "PHONE": "", 
+          "EMAIL": "", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Sharzad Moshiri, CPA", 
+          "COMPANY": "", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "Belchertown, MA", 
+          "PHONE": "413-323-7650 office", 
+          "EMAIL": "smoshiri@comcast.net", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Michael Coren, Esq.", 
+          "COMPANY": "Cohen, Placitella & Roth", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "2001 Market Street - 29th floor\nPhiladelphia, Pennsylvania 19103", 
+          "PHONE": "Phone: (215) 567-3500\nToll Free: (888) 375-7600\nFax: (215) 567-6019", 
+          "EMAIL": "mcoren@cprlaw.com", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Leo Garonski, Esq.", 
+          "COMPANY": "Leo M. Garonski & Associates, P.C.", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "505 S. Lenola Road, Suite 218\nMoorestown, NJ 08057", 
+          "PHONE": "Telephone (856) 235-5000\nFax (856) 235-5090", 
+          "EMAIL": "Leo@GaronskiLaw.com", 
+          "WEBSITE": "www.GaronskiLaw.com"
+        }, 
+        {
+          "NAME": "Bill Newman, CPA", 
+          "COMPANY": "Withum, Smith & Brown PC", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "5 Vaughn Drive\nPrinceton, NJ 08540-6313", 
+          "PHONE": "Phone: 609.520.1188\nFax: 609.520.9882", 
+          "EMAIL": "wnewman@withum.com", 
+          "WEBSITE": "http://www.withum.com/partners_template.aspx?aid=22"
+        }, 
+        {
+          "NAME": "Don Kreis", 
+          "COMPANY": "", 
+          "SERVICE": "Lawyer", 
+          "ADDRESS": "", 
+          "PHONE": "", 
+          "EMAIL": "", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Valerie A. Hall, CPA", 
+          "COMPANY": "Dept. of Justice, Charitable Trust", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "", 
+          "PHONE": "603-271-1184", 
+          "EMAIL": "valerie.hall@doj.nh.gov", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "David Sparer", 
+          "COMPANY": "", 
+          "SERVICE": "Lawyer", 
+          "ADDRESS": "", 
+          "PHONE": "", 
+          "EMAIL": "sparer@herricklaw.net", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Gerry Tulis", 
+          "COMPANY": "Tulis Miller & Co", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "313 Congress St # 4, Boston, MA 02210", 
+          "PHONE": "Office Phone:(617) 946-9118, Office Fax:(617) 946-9122", 
+          "EMAIL": "", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "David Webber", 
+          "COMPANY": "Shatz, Schwartz and Fentin, P.C.", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "1441 Main St. \nSpringfield, MA 01103", 
+          "PHONE": "413-737-1131", 
+          "EMAIL": "dwebber@ssfpc.com", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Phyllis Menken", 
+          "COMPANY": "", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "9 Union Street\nCharlestown, MA 02129", 
+          "PHONE": "Office: 617-242-3736 (ph/fax)", 
+          "EMAIL": "", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Jon Wright", 
+          "COMPANY": "", 
+          "SERVICE": "CPA/accountant", 
+          "ADDRESS": "", 
+          "PHONE": "", 
+          "EMAIL": "jwright@jwrightcpa.com", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Jenny Kassan and Janelle Orsi", 
+          "COMPANY": "Katovich & Kassan law group", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "436 14th Street, Suite 1120\nOakland, California 94612", 
+          "PHONE": "Telephone: (510) 834-4530\nFax: (510) 550-2777", 
+          "EMAIL": "info@k2-legal.com", 
+          "WEBSITE": "http://k2-legal.com"
+        }, 
+        {
+          "NAME": "Todd Ketcham, Esq.", 
+          "COMPANY": "", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "Unity, ME", 
+          "PHONE": "", 
+          "EMAIL": "", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "David Bloomberg", 
+          "COMPANY": "", 
+          "SERVICE": "Lawyer", 
+          "ADDRESS": "Northampton, MA", 
+          "PHONE": "413-586-3700", 
+          "EMAIL": "", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Ted DeBarbieri", 
+          "COMPANY": "Brooklyn Law School", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "Brooklyn, NY", 
+          "PHONE": "(718) 780-7582", 
+          "EMAIL": "edward.debarbieri@brooklaw.edu", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "David Singer", 
+          "COMPANY": "", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "Greenfield, MA 01301-3332", 
+          "PHONE": "413-774-3100", 
+          "EMAIL": "", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Clifford Ginn", 
+          "COMPANY": "Law Office of Clifford Ginn", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "62 Marion Jordan Road, Scarborough, ME 04074", 
+          "PHONE": "(207) 274-0001 (C)", 
+          "EMAIL": "cliffginn@gmail.com", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Gowri Krishna", 
+          "COMPANY": "", 
+          "SERVICE": "Lawyer", 
+          "ADDRESS": "", 
+          "PHONE": "(401) 276-4887", 
+          "EMAIL": "gowrijkrishna@gmail.com", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Ed Lucente", 
+          "COMPANY": "", 
+          "SERVICE": "CPA/accountant", 
+          "ADDRESS": "", 
+          "PHONE": "", 
+          "EMAIL": "S92SAS@aol.com", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Marty Huban", 
+          "COMPANY": "", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "", 
+          "PHONE": "", 
+          "EMAIL": "Marty@brazeehuban.com", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Lisa Goldstein", 
+          "COMPANY": "", 
+          "SERVICE": "Accountant", 
+          "ADDRESS": "", 
+          "PHONE": "", 
+          "EMAIL": "lmg321@outlook.com", 
+          "WEBSITE": ""
+        }, 
+        {
+          "NAME": "Rebecca Osland", 
+          "COMPANY": "Attorney at Law", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "P.O. Box 5525\nSpringfield, IL 62705", 
+          "PHONE": "(312) 203-2528", 
+          "EMAIL": "rebeccaoslandlaw@gmail.com", 
+          "WEBSITE": "rebeccaoslandlaw.com"
+        }, 
+        {
+          "NAME": "Carrie Yardley", 
+          "COMPANY": "Yardley Esq. PLLC", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "795 Congress Street  Portland, Maine 04102", 
+          "PHONE": "", 
+          "EMAIL": "carrie@yardleyesq.com", 
+          "WEBSITE": "http://yardleyesq.com/"
+        }, 
+        {
+          "NAME": "Jason Wiener", 
+          "COMPANY": "Jason Wiener P.C.", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "5762 Table Top Court\nBoulder, CO 80301\nUSA", 
+          "PHONE": "720.445.6860", 
+          "EMAIL": "jason@jrwiener.com", 
+          "WEBSITE": "www.jrwiener.com"
+        }, 
+        {
+          "NAME": "Lydia Edwards, Esq", 
+          "COMPANY": "", 
+          "SERVICE": "Attorney", 
+          "ADDRESS": "Boston, MA", 
+          "PHONE": "", 
+          "EMAIL": "", 
+          "WEBSITE": "https://www.linkedin.com/pub/lydia-edwards/4/2/b75"
+        }
+      ]
+    }
+  }
+}
