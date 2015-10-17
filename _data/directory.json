@@ -11,7 +11,13 @@
         "ADDRESS", 
         "PHONE", 
         "EMAIL", 
-        "WEBSITE"
+        "WEBSITE", 
+        "LAT", 
+        "LNG", 
+        "COUNTRY", 
+        "STREET", 
+        "REGION", 
+        "LOCALITY"
       ], 
       "rows": [
         {
@@ -21,7 +27,13 @@
           "ADDRESS": "Holyoke, MA", 
           "PHONE": "", 
           "EMAIL": "", 
-          "WEBSITE": "dfjacobson.com"
+          "WEBSITE": "dfjacobson.com", 
+          "LAT": "42.2042586", 
+          "LNG": "-72.6162009", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Holyoke"
         }, 
         {
           "NAME": "Boston Tech Collective", 
@@ -30,7 +42,13 @@
           "ADDRESS": "231 Holland St., Somerville, MA 02144", 
           "PHONE": "617-639-1230", 
           "EMAIL": "", 
-          "WEBSITE": "http://boston.techcollective.com/"
+          "WEBSITE": "http://boston.techcollective.com/", 
+          "LAT": "42.4025529", 
+          "LNG": "-71.1266694", 
+          "COUNTRY": "United States", 
+          "STREET": "231 Holland Street", 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Somerville"
         }, 
         {
           "NAME": "Tom Beckett", 
@@ -39,7 +57,13 @@
           "ADDRESS": "Asheville, NC", 
           "PHONE": "", 
           "EMAIL": "", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "35.5950581", 
+          "LNG": "-82.5514869", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "North Carolina", 
+          "LOCALITY": "Asheville"
         }, 
         {
           "NAME": "Andy Danforth", 
@@ -48,7 +72,13 @@
           "ADDRESS": "PO Box 422, Shelburne Falls, MA 01370", 
           "PHONE": "", 
           "EMAIL": "adanforth@cdi.coop", 
-          "WEBSITE": "http://www.cdi.coop/about-us/staff/#adanforth"
+          "WEBSITE": "http://www.cdi.coop/about-us/staff/#adanforth", 
+          "LAT": "42.6042514", 
+          "LNG": "-72.7392588", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Shelburne Falls"
         }, 
         {
           "NAME": "Patrick Deluhery", 
@@ -57,7 +87,13 @@
           "ADDRESS": "South Hadley, MA", 
           "PHONE": "413-437-7145", 
           "EMAIL": "pdeluhery@aol.com", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "42.2591729", 
+          "LNG": "-72.5747934", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "South Hadley"
         }, 
         {
           "NAME": "Steve Harrington", 
@@ -66,7 +102,13 @@
           "ADDRESS": "241 King Street Suite 27 Northampton, MA 01060", 
           "PHONE": "(413) 585-5815", 
           "EMAIL": "", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "42.3305534", 
+          "LNG": "-72.6334435", 
+          "COUNTRY": "United States", 
+          "STREET": "241 King Street", 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Northampton"
         }, 
         {
           "NAME": "Robb D. Morton", 
@@ -75,7 +117,13 @@
           "ADDRESS": "48 Bay Rd. Hadley, MA 01035", 
           "PHONE": "(413) 587-0099", 
           "EMAIL": "", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "42.337378", 
+          "LNG": "-72.6054506", 
+          "COUNTRY": "United States", 
+          "STREET": "48 Bay Road", 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Hadley"
         }, 
         {
           "NAME": "Michele Cabral", 
@@ -84,7 +132,13 @@
           "ADDRESS": "733 Memorial Ave. West Springfield, MA 01089", 
           "PHONE": "413-537-0118", 
           "EMAIL": "", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "42.0957145", 
+          "LNG": "-72.6098621", 
+          "COUNTRY": "United States", 
+          "STREET": "733 Memorial Avenue", 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "West Springfield"
         }, 
         {
           "NAME": "Rich Forsyth", 
@@ -93,7 +147,13 @@
           "ADDRESS": "10 Park Place, Brattleboro, VT 05302", 
           "PHONE": "802-257-1307", 
           "EMAIL": "", 
-          "WEBSITE": "www.pieciak.com"
+          "WEBSITE": "www.pieciak.com", 
+          "LAT": "42.8571", 
+          "LNG": "-72.55994", 
+          "COUNTRY": "United States", 
+          "STREET": "10 Park Place", 
+          "REGION": "Vermont", 
+          "LOCALITY": "Brattleboro"
         }, 
         {
           "NAME": "Mike Nickerson", 
@@ -102,7 +162,13 @@
           "ADDRESS": "Belfast, ME", 
           "PHONE": "", 
           "EMAIL": "", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "44.4259092", 
+          "LNG": "-69.0064234", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "Maine", 
+          "LOCALITY": "Belfast"
         }, 
         {
           "NAME": "Sharzad Moshiri, CPA", 
@@ -111,7 +177,13 @@
           "ADDRESS": "Belchertown, MA", 
           "PHONE": "413-323-7650 office", 
           "EMAIL": "smoshiri@comcast.net", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "42.2770346", 
+          "LNG": "-72.4008884", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Belchertown"
         }, 
         {
           "NAME": "Michael Coren, Esq.", 
@@ -120,7 +192,13 @@
           "ADDRESS": "2001 Market Street - 29th floor\nPhiladelphia, Pennsylvania 19103", 
           "PHONE": "Phone: (215) 567-3500\nToll Free: (888) 375-7600\nFax: (215) 567-6019", 
           "EMAIL": "mcoren@cprlaw.com", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "39.9542059", 
+          "LNG": "-75.1740781", 
+          "COUNTRY": "United States", 
+          "STREET": "2001 Market Street", 
+          "REGION": "Pennsylvania", 
+          "LOCALITY": "Philadelphia"
         }, 
         {
           "NAME": "Leo Garonski, Esq.", 
@@ -129,7 +207,13 @@
           "ADDRESS": "505 S. Lenola Road, Suite 218\nMoorestown, NJ 08057", 
           "PHONE": "Telephone (856) 235-5000\nFax (856) 235-5090", 
           "EMAIL": "Leo@GaronskiLaw.com", 
-          "WEBSITE": "www.GaronskiLaw.com"
+          "WEBSITE": "www.GaronskiLaw.com", 
+          "LAT": "39.9486603", 
+          "LNG": "-74.9706174", 
+          "COUNTRY": "United States", 
+          "STREET": "505 South Lenola Road", 
+          "REGION": "New Jersey", 
+          "LOCALITY": "Moorestown"
         }, 
         {
           "NAME": "Bill Newman, CPA", 
@@ -138,7 +222,13 @@
           "ADDRESS": "5 Vaughn Drive\nPrinceton, NJ 08540-6313", 
           "PHONE": "Phone: 609.520.1188\nFax: 609.520.9882", 
           "EMAIL": "wnewman@withum.com", 
-          "WEBSITE": "http://www.withum.com/partners_template.aspx?aid=22"
+          "WEBSITE": "http://www.withum.com/partners_template.aspx?aid=22", 
+          "LAT": "40.3175017", 
+          "LNG": "-74.6292799", 
+          "COUNTRY": "United States", 
+          "STREET": "5 Vaughn Drive", 
+          "REGION": "New Jersey", 
+          "LOCALITY": "Princeton"
         }, 
         {
           "NAME": "Don Kreis", 
@@ -147,7 +237,13 @@
           "ADDRESS": "", 
           "PHONE": "", 
           "EMAIL": "", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": null, 
+          "LNG": null, 
+          "COUNTRY": null, 
+          "STREET": null, 
+          "REGION": null, 
+          "LOCALITY": null
         }, 
         {
           "NAME": "Valerie A. Hall, CPA", 
@@ -156,7 +252,13 @@
           "ADDRESS": "", 
           "PHONE": "603-271-1184", 
           "EMAIL": "valerie.hall@doj.nh.gov", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": null, 
+          "LNG": null, 
+          "COUNTRY": null, 
+          "STREET": null, 
+          "REGION": null, 
+          "LOCALITY": null
         }, 
         {
           "NAME": "David Sparer", 
@@ -165,7 +267,13 @@
           "ADDRESS": "", 
           "PHONE": "", 
           "EMAIL": "sparer@herricklaw.net", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": null, 
+          "LNG": null, 
+          "COUNTRY": null, 
+          "STREET": null, 
+          "REGION": null, 
+          "LOCALITY": null
         }, 
         {
           "NAME": "Gerry Tulis", 
@@ -174,7 +282,13 @@
           "ADDRESS": "313 Congress St # 4, Boston, MA 02210", 
           "PHONE": "Office Phone:(617) 946-9118, Office Fax:(617) 946-9122", 
           "EMAIL": "", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "42.3511496", 
+          "LNG": "-71.0502211", 
+          "COUNTRY": "United States", 
+          "STREET": "313 Congress Street", 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Boston"
         }, 
         {
           "NAME": "David Webber", 
@@ -183,7 +297,13 @@
           "ADDRESS": "1441 Main St. \nSpringfield, MA 01103", 
           "PHONE": "413-737-1131", 
           "EMAIL": "dwebber@ssfpc.com", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "42.1031799", 
+          "LNG": "-72.5904228", 
+          "COUNTRY": "United States", 
+          "STREET": "1441 Main Street", 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Springfield"
         }, 
         {
           "NAME": "Phyllis Menken", 
@@ -192,7 +312,13 @@
           "ADDRESS": "9 Union Street\nCharlestown, MA 02129", 
           "PHONE": "Office: 617-242-3736 (ph/fax)", 
           "EMAIL": "", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "42.3742905", 
+          "LNG": "-71.063971", 
+          "COUNTRY": "United States", 
+          "STREET": "9 Union Street", 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Boston"
         }, 
         {
           "NAME": "Jon Wright", 
@@ -201,7 +327,13 @@
           "ADDRESS": "", 
           "PHONE": "", 
           "EMAIL": "jwright@jwrightcpa.com", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": null, 
+          "LNG": null, 
+          "COUNTRY": null, 
+          "STREET": null, 
+          "REGION": null, 
+          "LOCALITY": null
         }, 
         {
           "NAME": "Jenny Kassan and Janelle Orsi", 
@@ -210,7 +342,13 @@
           "ADDRESS": "436 14th Street, Suite 1120\nOakland, California 94612", 
           "PHONE": "Telephone: (510) 834-4530\nFax: (510) 550-2777", 
           "EMAIL": "info@k2-legal.com", 
-          "WEBSITE": "http://k2-legal.com"
+          "WEBSITE": "http://k2-legal.com", 
+          "LAT": "37.8043674", 
+          "LNG": "-122.2706567", 
+          "COUNTRY": "United States", 
+          "STREET": "436 14th Street", 
+          "REGION": "California", 
+          "LOCALITY": "Oakland"
         }, 
         {
           "NAME": "Todd Ketcham, Esq.", 
@@ -219,7 +357,13 @@
           "ADDRESS": "Unity, ME", 
           "PHONE": "", 
           "EMAIL": "", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "44.6111643", 
+          "LNG": "-69.3345032", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "Maine", 
+          "LOCALITY": "Unity"
         }, 
         {
           "NAME": "David Bloomberg", 
@@ -228,7 +372,13 @@
           "ADDRESS": "Northampton, MA", 
           "PHONE": "413-586-3700", 
           "EMAIL": "", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "42.3250896", 
+          "LNG": "-72.6412013", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Northampton"
         }, 
         {
           "NAME": "Ted DeBarbieri", 
@@ -237,7 +387,13 @@
           "ADDRESS": "Brooklyn, NY", 
           "PHONE": "(718) 780-7582", 
           "EMAIL": "edward.debarbieri@brooklaw.edu", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "40.6781784", 
+          "LNG": "-73.9441579", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "New York", 
+          "LOCALITY": "New York"
         }, 
         {
           "NAME": "David Singer", 
@@ -246,7 +402,13 @@
           "ADDRESS": "Greenfield, MA 01301-3332", 
           "PHONE": "413-774-3100", 
           "EMAIL": "", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "42.587915", 
+          "LNG": "-72.5994104", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Greenfield"
         }, 
         {
           "NAME": "Clifford Ginn", 
@@ -255,7 +417,13 @@
           "ADDRESS": "62 Marion Jordan Road, Scarborough, ME 04074", 
           "PHONE": "(207) 274-0001 (C)", 
           "EMAIL": "cliffginn@gmail.com", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": "43.5526592", 
+          "LNG": "-70.295023", 
+          "COUNTRY": "United States", 
+          "STREET": "62 Marion Jordan Road", 
+          "REGION": "Maine", 
+          "LOCALITY": "Scarborough"
         }, 
         {
           "NAME": "Gowri Krishna", 
@@ -264,7 +432,13 @@
           "ADDRESS": "", 
           "PHONE": "(401) 276-4887", 
           "EMAIL": "gowrijkrishna@gmail.com", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": null, 
+          "LNG": null, 
+          "COUNTRY": null, 
+          "STREET": null, 
+          "REGION": null, 
+          "LOCALITY": null
         }, 
         {
           "NAME": "Ed Lucente", 
@@ -273,7 +447,13 @@
           "ADDRESS": "", 
           "PHONE": "", 
           "EMAIL": "S92SAS@aol.com", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": null, 
+          "LNG": null, 
+          "COUNTRY": null, 
+          "STREET": null, 
+          "REGION": null, 
+          "LOCALITY": null
         }, 
         {
           "NAME": "Marty Huban", 
@@ -282,7 +462,13 @@
           "ADDRESS": "", 
           "PHONE": "", 
           "EMAIL": "Marty@brazeehuban.com", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": null, 
+          "LNG": null, 
+          "COUNTRY": null, 
+          "STREET": null, 
+          "REGION": null, 
+          "LOCALITY": null
         }, 
         {
           "NAME": "Lisa Goldstein", 
@@ -291,7 +477,13 @@
           "ADDRESS": "", 
           "PHONE": "", 
           "EMAIL": "lmg321@outlook.com", 
-          "WEBSITE": ""
+          "WEBSITE": "", 
+          "LAT": null, 
+          "LNG": null, 
+          "COUNTRY": null, 
+          "STREET": null, 
+          "REGION": null, 
+          "LOCALITY": null
         }, 
         {
           "NAME": "Rebecca Osland", 
@@ -300,7 +492,13 @@
           "ADDRESS": "P.O. Box 5525\nSpringfield, IL 62705", 
           "PHONE": "(312) 203-2528", 
           "EMAIL": "rebeccaoslandlaw@gmail.com", 
-          "WEBSITE": "rebeccaoslandlaw.com"
+          "WEBSITE": "rebeccaoslandlaw.com", 
+          "LAT": "39.8", 
+          "LNG": "-89.65", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "Illinois", 
+          "LOCALITY": "Springfield"
         }, 
         {
           "NAME": "Carrie Yardley", 
@@ -309,7 +507,13 @@
           "ADDRESS": "795 Congress Street  Portland, Maine 04102", 
           "PHONE": "", 
           "EMAIL": "carrie@yardleyesq.com", 
-          "WEBSITE": "http://yardleyesq.com/"
+          "WEBSITE": "http://yardleyesq.com/", 
+          "LAT": "43.6540429", 
+          "LNG": "-70.2721656", 
+          "COUNTRY": "United States", 
+          "STREET": "795 Congress Street", 
+          "REGION": "Maine", 
+          "LOCALITY": "Portland"
         }, 
         {
           "NAME": "Jason Wiener", 
@@ -318,7 +522,13 @@
           "ADDRESS": "5762 Table Top Court\nBoulder, CO 80301\nUSA", 
           "PHONE": "720.445.6860", 
           "EMAIL": "jason@jrwiener.com", 
-          "WEBSITE": "www.jrwiener.com"
+          "WEBSITE": "www.jrwiener.com", 
+          "LAT": "40.07605", 
+          "LNG": "-105.194624", 
+          "COUNTRY": "United States", 
+          "STREET": "5762 Table Top Court", 
+          "REGION": "Colorado", 
+          "LOCALITY": "Boulder"
         }, 
         {
           "NAME": "Lydia Edwards, Esq", 
@@ -327,7 +537,13 @@
           "ADDRESS": "Boston, MA", 
           "PHONE": "", 
           "EMAIL": "", 
-          "WEBSITE": "https://www.linkedin.com/pub/lydia-edwards/4/2/b75"
+          "WEBSITE": "https://www.linkedin.com/pub/lydia-edwards/4/2/b75", 
+          "LAT": "42.3600825", 
+          "LNG": "-71.0588801", 
+          "COUNTRY": "United States", 
+          "STREET": null, 
+          "REGION": "Massachusetts", 
+          "LOCALITY": "Boston"
         }
       ]
     }
